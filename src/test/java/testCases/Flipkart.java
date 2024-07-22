@@ -11,7 +11,7 @@ public class Flipkart {
 		WebDriver driver ;
 		 System.setProperty("webdriver.chrome.driver", "D:\\JavaCodes\\SeleniumForMarch2024\\SeleniumForMarch2024\\Drivers\\chromedriver_125.exe");
 		 driver=new ChromeDriver();
-		 driver.manage().window().maximize();
+		 driver.manage().window().maximize() ;
 		 driver.get("https://www.flipkart.com/");
 		 //driver.findElement(By.name("q")).sendKeys("Peanut Butter",Keys.ENTER);
 		// driver.navigate().back();
